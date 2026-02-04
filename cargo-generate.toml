@@ -8,11 +8,11 @@ exclude = ["README_TEMPLATE.md"]
 "README_TEMPLATE.md" = "README.md"
 
 [placeholders]
-plugin_name = { type = "string", prompt = "Plugin Name (Human readable)", default = "{{ project-name | title | replace: '-', ' ' | replace: '_', ' ' }}" }
+plugin_name = { type = "string", prompt = "Plugin Name (Human readable)", default = "My Plugin" }
 author = { type = "string", prompt = "Author Name", default = "Your Name" }
 email = { type = "string", prompt = "Email Address", default = "your@email.com" }
 url = { type = "string", prompt = "Project URL", default = "https://youtu.be/dQw4w9WgXcQ" }
 description = { type = "string", prompt = "Description", default = "A short description of your plugin" }
-clap_id = { type = "string", prompt = "CLAP ID", default = "com.your-domain.{{ project-name }}" }
+clap_id = { type = "string", prompt = "CLAP ID", default = "com.your-domain.my-plugin" }
 vst3_id = { type = "string", prompt = "VST3 ID (Exactly 16 chars)", default = "Exactly16Chars!!" }
 license = { type = "string", prompt = "License", default = "GPL-3.0-or-later", choices = ["GPL-3.0-or-later", "ISC"] }
