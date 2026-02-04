@@ -1,11 +1,11 @@
 [package]
-name = "{{ cookiecutter.project_name }}"
+name = "{{ project-name }}"
 version = "0.1.0"
 edition = "2021"
-authors = ["{{ cookiecutter.author }} <{{ cookiecutter.email_address }}>"]
-license = "{{ cookiecutter.license }}"
-homepage = "{{ cookiecutter.url }}"
-description = "{{ cookiecutter.description }}"
+authors = ["{{ author }} <{{ email }}>"]
+license = "{{ license }}"
+homepage = "{{ url }}"
+description = "{{ description }}"
 
 [workspace]
 members = ["xtask"]
