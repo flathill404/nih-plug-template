@@ -1,6 +1,6 @@
 [template]
 exclude = ["cargo-generate.toml", ".git"]
-ignore = ["README.md"]
+ignore = [".github"]
 
 [placeholders.plugin_name]
 type = "string"
