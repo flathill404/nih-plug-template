@@ -1,8 +1,6 @@
 [template]
 exclude = ["cargo-generate.toml", "README.md", ".git"]
 
-[template.init]
-exclude = ["README_TEMPLATE.md"]
 
 [template.files]
 "README_TEMPLATE.md" = "README.md"
