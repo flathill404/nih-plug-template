@@ -2,7 +2,7 @@
 exclude = ["cargo-generate.toml", "README.md", ".git"]
 
 
-[template.files]
+[renames]
 "README_TEMPLATE.md" = "README.md"
 
 [placeholders.plugin_name]
